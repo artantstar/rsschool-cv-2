@@ -1,3 +1,5 @@
+![Anton Starovoitov](assets/photo.jpg)
+
 # Anton Starovoitov
 
 Front-End Developer
