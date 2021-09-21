@@ -4,18 +4,18 @@
 
 Front-End Developer
 
-### Contacts:
+### ☎️ Contacts:
 
 - E-mail: [artantstar@gmail.com](mailto:artantstar@gmail.com)
 - Telegram: [@artantstar](https://t.me/artantstar)
 - Discord: @Art#5338
 - GitHub: [artantstar](https://github.com/artantstar)
 
-### About myself:
+### 🤵 About myself:
 
 Was born in St. Petersburg, Russia. Graduated from St. Petersburg State Marine Technical University with a degree in Informatics and Computer Engineering. Since childhood I have been fond of computer technologies and I want to work in this area.
 
-### Skills:
+### 🔧 Skills:
 
 - HTML, Markdown
 - CSS, SASS, BEM
@@ -24,7 +24,7 @@ Was born in St. Petersburg, Russia. Graduated from St. Petersburg State Marine T
 - Git, GitHub
 - VSCode, Photoshop, Figma
 
-### Code example:
+### 📄 Code example:
 
 _Javascript:_
 
@@ -40,7 +40,7 @@ function countCats(matrix) {
 }
 ```
 
-### Experience:
+### 💼 Experience:
 
 - [Vertical Slider](https://rolling-scopes-school.github.io/artantstar-JSFEPRESCHOOL/vertical-slider/) (HTMl, CSS, JavaScript)
 - [Virtual Piano](https://rolling-scopes-school.github.io/artantstar-JSFE2021Q1/virtual-piano/) (JavaScript)
@@ -48,12 +48,12 @@ function countCats(matrix) {
 - [Museum](https://rolling-scopes-school.github.io/artantstar-JSFEPRESCHOOL/museum/) (HTMl, CSS)
 - [Wildlife](https://rolling-scopes-school.github.io/artantstar-JSFE2021Q1/wildlife/) (HTMl, CSS)
 
-### Education:
+### 📚 Education:
 
 - 2016 - 2020 St. Petersburg State Marine Technical University, Russia
 - 2021 The Rolling Scopes School: [JS/FE Pre-school (JavaScript)](https://app.rs.school/certificate/wve6x5vy)
 
-### Language:
+### 🌎 Language:
 
 - English: A2 (Pre-Intermediate)
 - Russian: Native
