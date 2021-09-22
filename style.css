@@ -286,6 +286,19 @@ h3 ~ .description {
   height: 100%;
 }
 
+.footer {
+  background-color: #e2e2e2;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 600;
+}
+
+.footer img {
+  height: 20px;
+}
+
 @media (max-width: 1023px) {
   .nav__box {
     display: none;
