@@ -272,7 +272,7 @@ h3 ~ .description {
 .video {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: 95%;
   padding-top: 56.25%;
 }
 
@@ -284,7 +284,9 @@ h3 ~ .description {
   right: 0;
   width: 100%;
   height: 100%;
+  border: none;
 }
+
 
 .footer {
   background-color: #e2e2e2;
