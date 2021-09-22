@@ -272,7 +272,7 @@ h3 ~ .description {
 .video {
   position: relative;
   overflow: hidden;
-  width: 95%;
+  width: calc(100% - 20px);
   padding-top: 56.25%;
 }
 
