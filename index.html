@@ -20,12 +20,13 @@
         <input type="checkbox" id="burger-menu">
         <label class="burger-menu__icon" for="burger-menu"><i class="fas fa-bars"></i></label>
         <ul class="nav__box">
-          <li><a href="#"><i class="fas fa-address-card"></i> About myself:</a></li>
-          <li><a href="#"><i class="fas fa-tools"></i> Skills</a></li>
-          <li><a href="#"><i class="fas fa-code"></i> Code example</a></li>
-          <li><a href="#"><i class="fas fa-briefcase"></i> Experience</a></li>
-          <li><a href="#"><i class="fas fa-graduation-cap"></i> Education</a></li>
-          <li><a href="#"><i class="fas fa-globe-americas"></i> Language</a></li>
+          <li><a href="#about"><i class="fas fa-address-card"></i> About myself:</a></li>
+          <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+          <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+          <li><a href="#code"><i class="fas fa-code"></i> Code example</a></li>
+          <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+          <li><a href="#language"><i class="fas fa-globe-americas"></i> Language</a></li>
+          <li><a href="#video"><i class="fas fa-video"></i> Video</a></li>
         </ul>
       </nav>
     </header>
@@ -48,7 +49,7 @@
         </ul>
       </aside>
       <main class="about">
-        <h3>About <span class="h3-accent">myself</span></h3>
+        <h3 id="about">About <span class="h3-accent">myself</span></h3>
         <div class="description">
           <p>
             Was born in St. Petersburg, Russia. Graduated from St. Petersburg State Marine Technical University with a
@@ -56,8 +57,8 @@
             and I want to work in this area.
           </p>
         </div>
-        <h3>Ski<span class="h3-accent">lls</span></h3>
-        <div class="description">
+        <h3 id="skills">Ski<span class="h3-accent">lls</span></h3>
+        <section class="description">
           <ul class="skills">
             <li>
               <div class="progress progress_full">HTML</div>
@@ -72,8 +73,8 @@
               <div class="progress progress_high">Git</div>
             </li>
           </ul>
-        </div>
-        <h3>Exp<span class="h3-accent">erience</span></h3>
+        </section>
+        <h3 id="experience">Exp<span class="h3-accent">erience</span></h3>
         <div class="description experience">
 
           <div class="card">
@@ -132,7 +133,7 @@
           </div>
 
         </div>
-        <h3>Code <span class="h3-accent">example</span></h3>
+        <h3 id="code">Code <span class="h3-accent">example</span></h3>
         <div class="description">
           <pre><code class="language-javascript">function countCats(matrix) {
             let count = 0;
@@ -144,7 +145,7 @@
             return count;
           }</code></pre>
         </div>
-        <h3>Educ<span class="h3-accent">ation</span></h3>
+        <h3 id="education">Educ<span class="h3-accent">ation</span></h3>
         <div class="description education">
           <div class="date">2016 - 2020</div>
           <div class="place">
@@ -160,7 +161,7 @@
             <p>The Rolling Scopes School: JS/FE Pre-school (JavaScript)</p>
           </div>
         </div>
-        <h3>Lang<span class="h3-accent">uage</span></h3>
+        <h3 id="language">Lang<span class="h3-accent">uage</span></h3>
         <div class="description language">
           <p><span class="bold">English:</span> A2 (Pre-Intermediate)</p>
           <p><span class="bold">Russian:</span> Native</p>
