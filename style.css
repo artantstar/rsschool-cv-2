@@ -80,6 +80,132 @@ button {
   display: flex;
 }
 
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile {
+  width: 35%;
+  background: linear-gradient(#27d4d4, #51bec2);
+}
+
+.info {
+  margin-top: 10px;
+  text-align: center;
+  color: #444444;
+  font-weight: 600;
+}
+
+.photo {
+  width: 100%;
+}
+
+.contacts {
+  font-weight: 500;
+  margin: 10px;
+  color: #333;
+}
+
+.contacts a,
+.contacts span {
+  color: #444;
+}
+
+.contacts a:hover,
+.contacts span:hover {
+  color: #555;
+}
+
+.contacts-tittle {
+  margin-top: 10px;
+  text-align: center;
+  padding: 5px 0;
+  color: #ccc;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.about {
+  width: 65%;
+  padding: 10px;
+}
+
+h3 {
+  color: #333;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.h3-accent {
+  color: #127a7a;
+}
+
+
+h3 ~ .description {
+  margin: 20px 10px;
+}
+
+.skills li {
+  width: 250px;
+  margin: 10px 0 0 0;
+  display: block;
+  background: #375a64;
+  font-weight: 900;
+  color: #2b5f6c;
+}
+
+.progress {
+  padding-left: 5px;
+  background-color: #00aec3;
+}
+
+.progress_half {
+  width: 60%;
+}
+
+.progress_high {
+  width: 80%;
+}
+
+.progress_full {
+  width: 100%;
+} 
+
+.education {
+  display: flex;
+}
+
+.date {
+  width: 100px;
+  border-right: #888 solid 2px;
+  font-weight: 500;
+  /* background-color: red; */
+}
+
+.place {
+  padding-left: 10px;
+}
+
+.status {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.hr {
+  width: 90%;
+  height: 2px;
+  background-color: #888;
+  margin-left: 10px;
+}
+
+.language p {
+  margin-top: 10px;
+}
+
+.bold {
+  font-weight: 500;
+}
+
 @media (max-width: 1023px) {
   .nav__box {
     display: none;
@@ -89,5 +215,12 @@ button {
   }
   .burger-menu__icon {
     display: flex;
+  }
+}
+
+@media (max-width: 639px) {
+  .profile,
+  .about {
+    width: 100%;
   }
 }
