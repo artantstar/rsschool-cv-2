@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+button {
+  background: none;
+  /* border: none; */
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: #f8f8f8;
+}
+
+.header {
+  min-height: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ececec;
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav__box {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 50px;
+}
+
+.nav__box a,
+.burger-menu__icon i {
+  color: #444444;
+}
+
+.nav__box a:hover,
+.burger-menu__icon i:hover {
+  color: #888;
+}
+
+#burger-menu {
+  display: none;
+}
+
+.burger-menu__icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+#burger-menu:checked ~ .nav__box {
+  display: flex;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile {
+  width: 35%;
+  background: linear-gradient(#27d4d4, #51bec2);
+}
+
+.info {
+  margin-top: 10px;
+  text-align: center;
+  color: #444444;
+  font-weight: 600;
+}
+
+.photo {
+  width: 100%;
+}
+
+.contacts {
+  font-weight: 500;
+  margin: 10px;
+  color: #333;
+}
+
+.contacts a,
+.contacts span {
+  color: #444;
+}
+
+.contacts a:hover,
+.contacts span:hover {
+  color: #555;
+}
+
+.contacts-tittle {
+  margin-top: 10px;
+  text-align: center;
+  padding: 5px 0;
+  color: #ccc;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.about {
+  width: 65%;
+  padding: 10px;
+}
+
+h3 {
+  color: #333;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.h3-accent {
+  color: #127a7a;
+}
+
+h3 ~ .description {
+  margin: 20px 10px;
+}
+
+.skills li {
+  width: 250px;
+  margin: 10px 0 0 0;
+  display: block;
+  background: #375a64;
+  font-weight: 900;
+  color: #2b5f6c;
+}
+
+.progress {
+  padding-left: 5px;
+  background-color: #00aec3;
+}
+
+.progress_half {
+  width: 60%;
+}
+
+.progress_high {
+  width: 80%;
+}
+
+.progress_full {
+  width: 100%;
+}
+
+.education {
+  display: flex;
+}
+
+.date {
+  width: 100px;
+  border-right: #888 solid 2px;
+  font-weight: 500;
+  /* background-color: red; */
+}
+
+.place {
+  padding-left: 10px;
+}
+
+.status {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.hr {
+  width: 90%;
+  height: 2px;
+  background-color: #888;
+  margin-left: 10px;
+}
+
+.language p {
+  margin-top: 10px;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.experience {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 10px;
+  flex-basis: 50%;
+  overflow: hidden;
+  transition: padding 0.1s ease-in-out;
+}
+
+.card:hover {
+  padding: 5px;
+}
+
+.card__box {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-size: 100%;
+  color: #ccc;
+}
+
+.card__box img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.card__text {
+  padding: 5px;
+  position: absolute;
+  bottom: -100%;
+  width: 100%;
+  height: 60%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: bottom 0.2s ease-in-out;
+}
+
+.card:hover .card__text {
+  bottom: 8px;
+}
+
+.card-name {
+  font-weight: 500;
+}
+
+.card-lang {
+  margin-top: 5px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.card-description {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.video {
+  position: relative;
+  overflow: hidden;
+  width: 95%;
+  padding-top: 56.25%;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+.footer {
+  background-color: #e2e2e2;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 600;
+}
+
+.footer img {
+  height: 20px;
+}
+
+@media (max-width: 1023px) {
+  .nav__box {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+  .burger-menu__icon {
+    display: flex;
+  }
+}
+
+@media (max-width: 639px) {
+  .profile,
+  .about {
+    width: 100%;
+  }
+
+  .card {
+    flex-basis: 100%;
+  }
+}
