@@ -1,3 +1,93 @@
-.body {
-  asdasd: 123;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+button {
+  background: none;
+  /* border: none; */
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: #f8f8f8;
+}
+
+.header {
+  min-height: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ececec;
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav__box {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 50px;
+}
+
+.nav__box a,
+.burger-menu__icon i {
+  color: #444444;
+}
+
+.nav__box a:hover,
+.burger-menu__icon i:hover {
+  color: #888;
+}
+
+#burger-menu {
+  display: none;
+}
+
+.burger-menu__icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+#burger-menu:checked ~ .nav__box {
+  display: flex;
+}
+
+@media (max-width: 1023px) {
+  .nav__box {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+  .burger-menu__icon {
+    display: flex;
+  }
 }
